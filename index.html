@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GitHub User Finder</title>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main class="wrapper">
+    <section class="search">
+      <h1 class="search--title">Search GitHub Users</h1>
+      <p class="search--description">Enter a username to fetch a user profile and public repos</p>
+      <div class="search--notfound"></div>
+      <input type="text" id="searchuser" class="search--input" placeholder="artkol">
+    </section>
+    <section class="profile" id="profile"></section>
+
+    <section class="repos" id="repos"></section>
+  </main>
+  <script src="build/bundle.js"></script>
+
+</body>
+
+</html>
