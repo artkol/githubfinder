@@ -2,7 +2,7 @@
 
 ## Built with
 
-* [Vanilla JS](vanilla-js.com)
+* JavaScript
 * Flexbox
 * GitHub API
 * Webpack
